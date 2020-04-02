@@ -5,5 +5,24 @@ body {
 
 }
 #reset {
-    
+
+}
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+    height: 230px;
+}
+.row {
+
+}
+
+.row > div  {
+    border: solid 1px gray;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: gray;
+    width: 55px;
+    height: 55px;
 }
