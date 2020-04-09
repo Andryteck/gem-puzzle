@@ -1,28 +1,33 @@
 body {
-
+	background-color:#2a2a2a;
 }
-#box {
-
-}
+	
 #reset {
-
+	border:solid 1px gray;
+	background-color:#2a2a2a;
+	color: gray;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
-.layout {
-    display: flex;
-    flex-wrap: wrap;
-    width: 230px;
-    height: 230px;
+	
+td {				
+	text-align:center;				
+	font-family:Times New Roman;
+	color: gray;
+	vertical-align: middle;				
 }
-.row {
-
+#box td {
+	border:solid 1px gray;
+	text-align:center;
+	font-size:40px;
+	font-family:Times New Roman;
+	color: gray;
+	width: 55px;
+	height: 55px;
 }
 
-.row > div  {
-    border: solid 1px gray;
-    text-align: center;
-    font-size: 40px;
-    font-family: sans-serif;
-    color: gray;
-    width: 55px;
-    height: 55px;
+#box td:hover {
+	color:white;
+	cursor: hand;
 }
